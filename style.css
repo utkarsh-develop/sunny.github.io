@@ -136,3 +136,40 @@ img {
 .text-white {
   color: #FFFFFF;
 }
+/* Tags */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  padding: 0.2rem 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #f2f2f2;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  line-height: 1;
+  color: #333;
+  position: relative;
+}
+
+/* Button */
+.tag .button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.2rem 0.5rem;
+  background-color: #333;
+  color: #fff;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.tag .button:hover {
+  background-color: #555;
+}
+
