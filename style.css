@@ -136,3 +136,15 @@ img {
 .text-white {
   color: #FFFFFF;
 }
+/* Links */
+a {
+  color: #007aff;
+  text-decoration: none;
+  border-bottom: 1px solid #007aff;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #007aff;
+}
